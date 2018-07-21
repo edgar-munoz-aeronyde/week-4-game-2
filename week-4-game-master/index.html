@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 4 | Crystals Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <center>
+  <header>
+
+ <h1> - CRYSTAL COLLECTOR - </h1> 
+    </header>
+   
+
+    <section>
+    </br>
+        <p>You will be given a random number at the start of the game.</p>
+    </br>
+       <p> There are four crystals below.By clicking on a crystal 
+      you will add a speciific amount of points to your total score.</p> 
+    
+    </br>
+    <p>You win the game by matching your total score to random number .
+    You lose the game if your total score goes above the random number.</p>
+   
+    </br>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    
+    </br>
+    <p> Each time when the game starts,the game will change the values of each
+         crystal. </p>
+
+  </section>
+
+  <div class="scoreBox">
+        <p>WINS: <span id="wins"></span></p>
+        <br><br>
+        <p>LOSSES: <span id="lose"></span></p>
+
+</div>
+
+    <div class="containerBox" id="randomNumber">
+
+
+</div>
+    
+  
+
+   
+
+   
+    <div id="images">
+        <img src="assets/images/Diamond.png" alt="diamond" class="crystals">
+        <img src="assets/images/Sapphire.png" alt="sapphire" class="crystals">
+        <img src="assets/images/Ruby.png" alt="ruby" class="crystals">
+        <img src="assets/images/Emerald.png" alt="emerald" class="crystals">
+        
+    </div>
+
+    <div class="containerBox" id="score">
+        <p>Your total score is: <span id="scoreNum"></span></p>
+
+    </div>
+
+    <div class="containerBox" id="result">
+
+    </div>
+
+</center>
+
+    <script  type="text/javascript" src="assets/javascript/game.js" ></script>
+</body>
+</html>

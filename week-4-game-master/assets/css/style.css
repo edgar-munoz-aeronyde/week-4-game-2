@@ -1,0 +1,82 @@
+
+body{
+
+    background: url("../images/background1.png");
+    margin-left: 10px;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+
+}
+
+
+header{
+    text-align: center;
+    font-size: 30px;
+    background: gray;
+    color: white;
+    width: 750px;
+    height: 70px;
+    margin-top: 10px;
+    line-height: 70px;
+}
+
+section{
+    align-content: center;
+    background: lightgray;
+    width: 750px;
+    height: 250px;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.containerBox{
+   align-content: center;
+    background: gray;
+    width: 750px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+.scoreBox{
+    margin: 10px;
+    background: gray;
+    width: 750px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+
+}
+
+#randomNumber{
+    background: lightgray;
+    font-size: 30px;
+}
+
+#score{
+    height: 30px;
+    clear: both;
+    line-height: 30px;
+    color:white;
+
+}
+
+.crystals{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+ 
+#result{
+    color:white;
+    font-size: 30px;
+   
+}
